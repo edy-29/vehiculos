@@ -5,10 +5,11 @@ import plotly.express as px
 vehiculos = pd.read_csv(
     'C:\\Users\\dell\\Downloads\\vehiculos\\vehiculos\\vehicles_us.csv')
 
+st.title('Venta de vehiculos')
 
 hist_button = st.button('Histograma')  # crear un botón
 
-color = st.color_picker("Pick a color")
+# color = st.color_picker("Pick a color")
 
 if hist_button:  # al hacer clic en el botón
     # escribir un mensaje

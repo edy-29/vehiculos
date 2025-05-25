@@ -6,6 +6,7 @@ import plotly.express as px
 vehiculos = pd.read_csv(
     'C:\\Users\\dell\\Downloads\\vehiculos\\vehiculos\\vehicles_us.csv')
 
+st.title('Venta de vehiculos')
 st.header('Anuncios de venta de coches')
 
 # Mostrar el DataFrame con selección habilitada
