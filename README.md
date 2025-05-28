@@ -5,4 +5,4 @@ Se logro entender como funciona la terminal, la creacion de ambientes, instalaci
 Se entiende de forma clara y concisa como funcionan las diferentes aplicaciones alrededor de la creacion de una app
 El uso de visual code ofrece un entorno mas amplio para trabajar de forma diversificada, asi como el entendimiento de la plataforma Github
 
-Recientemente se realizaron modificaciones en el Proyecto del Sprint 7, por lo que no se incluye la plataforma render como parte del proyecto, donde anteriormente se subian los proyectos con aplicaciones web para que estuvieran disponibles de forma publica, en este caso solo se realiza lo demas en funcion de la estructra descrita en el proyecto descrita
+Recientemente se realizaron modificaciones en el Proyecto del Sprint 7 (Comentan los instructores) parte de estas modificaciones fue omitir algunas instrucciones entre ellas la publicacion en internet de la pagina web, a ello se suma la omision de la plataforma render como parte del proyecto, donde anteriormente se subian los proyectos para que estuvieran disponibles de forma publica, en este caso solo se realiza lo demas en funcion de la estructra descrita en el proyecto
