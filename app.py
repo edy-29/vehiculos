@@ -1,23 +1,24 @@
-import streamlit as st
 import pandas as pd
+import streamlit as st
 import plotly.express as px
 
-vehiculos = pd.read_csv(
-    'C:\\Users\\dell\\Downloads\\vehiculos\\vehiculos\\vehicles_us.csv')
+vehiculos = pd.read_csv('vehicles_us.csv')
 
-st.title('Venta de vehiculos')
+st.header('Venta de vehiculos')
 
-hist_button = st.button('Histograma')  # crear un botón
+# Mostrar el DataFrame como una tabla interactiva
+st.subheader('Tabla de datos generales')
+st.dataframe(vehiculos)
 
-# color = st.color_picker("Pick a color")
+# Separador visual
+st.markdown("---")
 
-if hist_button:  # al hacer clic en el botón
-    # escribir un mensaje
+hist_button = st.button('Construir histograma')  # crear un botón
+
+if hist_button:  # al hacer click en el boton
     st.write(
         'Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
-
-    # crear un histograma
-    fig = px.histogram(vehiculos, x="odometer")
+    fig = px.histogram(vehiculos, x="model_year")
 
     # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
